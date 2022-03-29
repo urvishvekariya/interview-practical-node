@@ -71,8 +71,6 @@ app.post('/give-consent', async (req, res) => {
             return res.status(400).send({ 'message': "All field is required" })
         }
 
-        // const userExistConsent.findOne({email})
-
         let newcons = []
 
         if (consents.includes(1)) {
